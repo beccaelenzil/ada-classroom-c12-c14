@@ -1,0 +1,2 @@
+class InvalidCardNumberError < StandardError
+end
