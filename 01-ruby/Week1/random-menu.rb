@@ -31,8 +31,7 @@ n = foods.length
 
 menu = []
 
-
-(1..n).each do |i|
+(0..n-1).each do |i|
 
     # random generation
     adjective = adjectives.sample
